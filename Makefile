@@ -1,6 +1,6 @@
 CC := gcc
 CFLAGS := -Wall -Wextra -std=c2x -pedantic -g
-TARGET := kilo
+TARGET := clox
 
 # Find all source files
 SRCS := $(shell find src -name '*.c')
@@ -14,7 +14,7 @@ CFLAGS += $(addprefix -I,$(INCLUDE_DIRS))
 
 .PHONY: all clean
 
-kilo: $(TARGET)
+clox: $(TARGET)
 
 $(TARGET): $(OBJS)
 	$(CC) $(CFLAGS) -o $@ $^
