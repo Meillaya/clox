@@ -1,7 +1,6 @@
 # Build System Optimization and Bug Fixes for the clox Bytecode Interpreter
 
-**Authors:** AI Assistant & Developer  
-**Date:** December 2024  
+
 **Subject:** Compiler Engineering, Build Systems, Virtual Machine Implementation
 
 ## Abstract
